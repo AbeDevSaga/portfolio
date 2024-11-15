@@ -229,8 +229,7 @@ const projects: TProject[] = [
   },
   {
     name: "Harari Innovation and Technology Agency",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    description: "A web-based platform that enables users to explore, access, and engage with Harari Innovation and Technology Agency's programs, projects, and resources, offering a seamless and efficient solution for fostering innovation and technological advancement.",
     tags: [
       {
         name: "react",
