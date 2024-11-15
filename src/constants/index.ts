@@ -249,9 +249,9 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Murti Guto Student Union",
+    name: "Murti Guto Student's Union",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web-based platform that enables users to explore, access, and engage with Murti Guto Student's Union activities, events, and resources, offering a seamless and efficient solution for student connection and collaboration.A web-based platform that enables users to explore, access, and engage with Murti Guto Student's Union activities, events, and resources, offering a seamless and efficient solution for student connection and collaboration.",
     tags: [
       {
         name: "nextjs",
