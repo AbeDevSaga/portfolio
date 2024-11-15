@@ -269,16 +269,16 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
     {
-    name: "Murti Guto Student's Union",
+    name: "School Managment System",
     description:
-      "A web-based platform that enables users to explore, access, and engage with Murti Guto Student's Union activities, events, and resources, offering a seamless and efficient solution for student connection and collaboration.",
-    tags: [
+      "A web-based platform that enables users to manage, track, and streamline school operations, including student information, attendance, grades, and communication, offering a seamless and efficient solution for educational administration.",
+      tags: [
       {
-        name: "nextjs",
+        name: "Laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Blae",
         color: "green-text-gradient",
       },
       {
