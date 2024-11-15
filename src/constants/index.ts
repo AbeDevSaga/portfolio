@@ -212,11 +212,11 @@ const projects: TProject[] = [
       "A web-based platform that enables users to explore, access, and engage with Harari news, events, and cultural resources, offering a seamless and efficient solution for community information and engagement.",
     tags: [
       {
-        name: "react",
+        name: "Laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mysql",
         color: "green-text-gradient",
       },
       {
