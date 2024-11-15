@@ -207,9 +207,9 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Harari Mass Media",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web-based platform that enables users to explore, access, and engage with Harari news, events, and cultural resources, offering a seamless and efficient solution for community information and engagement.",
     tags: [
       {
         name: "react",
