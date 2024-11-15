@@ -286,7 +286,7 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: project4,
     sourceCodeLink: "https://github.com/",
   },
 ];
