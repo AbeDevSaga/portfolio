@@ -251,7 +251,7 @@ const projects: TProject[] = [
   {
     name: "Murti Guto Student's Union",
     description:
-      "A web-based platform that enables users to explore, access, and engage with Murti Guto Student's Union activities, events, and resources, offering a seamless and efficient solution for student connection and collaboration.A web-based platform that enables users to explore, access, and engage with Murti Guto Student's Union activities, events, and resources, offering a seamless and efficient solution for student connection and collaboration.",
+      "A web-based platform that enables users to explore, access, and engage with Murti Guto Student's Union activities, events, and resources, offering a seamless and efficient solution for student connection and collaboration.",
     tags: [
       {
         name: "nextjs",
