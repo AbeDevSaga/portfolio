@@ -24,6 +24,7 @@ import {
   git,
   figma,
   docker,
+  laravel,
   meta,
   starbucks,
   tesla,
