@@ -66,7 +66,7 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Laravel Developer",
     icon: creator,
   },
 ];
