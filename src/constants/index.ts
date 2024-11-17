@@ -125,8 +125,8 @@ const technologies: TTechnology[] = [
   },
   {
     name: "figma"
-    icon: figma,
-  }
+    icon: figma
+  },
 ];
 
 const experiences: TExperience[] = [
