@@ -176,7 +176,7 @@ const experiences: TExperience[] = [
     companyName: "HInTA",
     icon: hinta,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using Laravel and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -187,7 +187,7 @@ const experiences: TExperience[] = [
 
   {
     title: "Full stack Developer",
-    companyName: "Meta",
+    companyName: "Mass Media Agency",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
