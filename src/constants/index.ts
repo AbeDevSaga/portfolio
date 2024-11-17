@@ -284,7 +284,7 @@ const projects: TProject[] = [
         color: "blue-text-gradient",
       },
       {
-        name: "Blae",
+        name: "Blade",
         color: "green-text-gradient",
       },
       {
