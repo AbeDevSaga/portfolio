@@ -58,11 +58,11 @@ export {
   threejs,
   meta,
   shopify,
+  hinta,
   starbucks,
   tesla,
   carrent,
   jobit,
   tripguide,
   project4,
-  hinta,
 };
