@@ -125,7 +125,7 @@ const technologies: TTechnology[] = [
   {
     name: "Laravel"
     icon: laravel,
-  }
+  },
 ];
 
 const experiences: TExperience[] = [
