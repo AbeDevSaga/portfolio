@@ -330,7 +330,7 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: project4,
+    image: hintas,
     sourceCodeLink: "https://github.com/",
   },
 ];
