@@ -171,9 +171,9 @@ const experiences: TExperience[] = [
   },
 
   {
-    title: "Web Developer",
+    title: "Full stack Developer",
     companyName: "HInTA",
-    icon: hinta,
+    icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
