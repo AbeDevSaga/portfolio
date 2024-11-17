@@ -36,6 +36,7 @@ import {
   project4,
   hintas,
   threejs,
+  portfolio,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -331,6 +332,27 @@ const projects: TProject[] = [
       },
     ],
     image: hintas,
+    sourceCodeLink: "https://github.com/",
+  },
+   {
+    name: "Personal portfolio",
+    description:
+      "A web-based platform that enables users to explore, access, and engage with Harari Innovation and Technology Agency's programs, projects, and resources, offering a seamless and efficient solution for fostering innovation and technological advancement.",
+      tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Blade",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
     sourceCodeLink: "https://github.com/",
   },
 ];

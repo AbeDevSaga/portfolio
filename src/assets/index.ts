@@ -33,6 +33,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import project4 from "./image4.png";
 import hintas from "./hintas.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -67,4 +68,5 @@ export {
   tripguide,
   project4,
   hintas,
+  portfolio,
 };
