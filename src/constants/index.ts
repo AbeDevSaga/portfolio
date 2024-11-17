@@ -122,6 +122,10 @@ const technologies: TTechnology[] = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Laravel"
+    icon: laravel,
+  }
 ];
 
 const experiences: TExperience[] = [
