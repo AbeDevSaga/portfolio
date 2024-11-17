@@ -124,7 +124,7 @@ const technologies: TTechnology[] = [
     icon: docker,
   },
   {
-    name: "figma"
+    name: "figma",
     icon: figma
   },
 ];
