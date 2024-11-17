@@ -24,6 +24,7 @@ import {
   git,
   figma,
   docker,
+  laravel,
   meta,
   starbucks,
   tesla,
@@ -121,6 +122,10 @@ const technologies: TTechnology[] = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "laravel",
+    icon: laravel,
   },
   ];
 
