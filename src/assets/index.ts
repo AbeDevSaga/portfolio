@@ -32,7 +32,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import project4 from "./image4.png";
-import hintas from "./hintas.png"
+import hintas from "./hintas.png";
 
 export {
   logo,
