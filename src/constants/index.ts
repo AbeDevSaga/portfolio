@@ -125,7 +125,7 @@ const technologies: TTechnology[] = [
   },
   {
     name: "figma",
-    icon: figma
+    icon: figma,
   },
 ];
 
