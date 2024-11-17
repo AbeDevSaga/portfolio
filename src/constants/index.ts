@@ -29,6 +29,7 @@ import {
   starbucks,
   tesla,
   shopify,
+  hinta,
   carrent,
   jobit,
   tripguide,
@@ -173,7 +174,7 @@ const experiences: TExperience[] = [
   {
     title: "Full stack Developer",
     companyName: "HInTA",
-    icon: shopify,
+    icon: hinta,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
