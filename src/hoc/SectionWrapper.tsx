@@ -6,7 +6,6 @@ interface Props {
   Component: React.ElementType;
   idName: string;
 }
-
 const SectionWrapper = (
   Component: Props["Component"],
   idName: Props["idName"]

@@ -35,18 +35,20 @@ type TConfig = {
     experience: TSection;
     feedbacks: TSection;
     works: Required<TSection>;
+    tech: Required<TSection>;
   };
 };
 
 export const config: TConfig = {
   html: {
-    title: "Adem Ahmed— 3D Portfolio",
-    fullName: "Adem Ahmed Bekar",
-    email: "ademahmedbekr@gmail.com",
+    title: "Amanuel Daniel— 3D Portfolio",
+    fullName: "Amanuel Daniel Merdasa",
+    email: "2000amandanm@gmail.com",
   },
   hero: {
-    name: "Adem Ahmed",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Amanuel Daniel",
+    p: ["Building web & mobile apps", 
+    "with React, Node.js, and Flutter."],
   },
   contact: {
     p: "Get in touch",
@@ -66,29 +68,38 @@ export const config: TConfig = {
   sections: {
     about: {
       p: "Introduction",
-      h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like Laravel, React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      h2: "Overview",
+      content: `I'm a software developer skilled in TypeScript, JavaScript, Flutter, 
+      React, Node.js, and more. I create scalable, user-friendly web and mobile apps, 
+      leveraging technologies like Docker, Firebase, and TensorFlow. My focus is on 
+      delivering innovative solutions tailored to modern needs.`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: "What I've done",
+      h2: "Work Experience",
+      content: `I am a software developer with expertise in AI, 
+      web, and mobile development. My projects range from creating 
+      collaborative platforms and AI tools to designing scalable e-commerce systems 
+      and microservices architectures.`,
     },
+    
     feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+      p: "What they say",
+      h2: "Testimonials",
+      content: `Hear from those I've worked with and how my contributions helped shape their projects.`,
     },
     works: {
-      p: "My work",
-      h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      p: "Portfolio",
+      h2: "Projects",
+      content: `Here are some of the projects that highlight my expertise, with links to 
+      code repositories and live demos. These works showcase my problem-solving skills 
+      and adaptability across various technologies.`,
     },
-  },
+    tech: {
+      p: "Tech Stack",
+      h2: "Technologies",
+      content: `Explore the tools and technologies I use to craft innovative solutions. 
+      From frontend frameworks to backend systems, my stack ensures seamless project delivery.`,
+    },
+  },  
 };

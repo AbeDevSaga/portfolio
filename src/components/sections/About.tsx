@@ -35,7 +35,7 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
           />
 
           <h3 className="text-center text-[20px] font-bold text-white">
-            {title}
+            {title} 
           </h3>
         </div>
       </motion.div>

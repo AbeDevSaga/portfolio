@@ -27,6 +27,14 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import hinta from "./company/hinta.png";
+import php from "./company/php.png";
+import python from "./company/python.png";
+import flutter from "./company/flutter.png";
+import react from "./company/react.png";
+import alumni from "./company/alumni.png";
+import microservice from "./company/microservice.png";
+
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -69,4 +77,10 @@ export {
   project4,
   hintas,
   portfolio,
+  php,
+  python,
+  flutter,
+  react,
+  alumni,
+  microservice,
 };
