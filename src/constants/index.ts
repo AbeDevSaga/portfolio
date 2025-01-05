@@ -222,7 +222,6 @@ const experiences: TExperience[] = [
   },
 ];
 
-
 // const experiences: TExperience[] = [
 //   {
 //     title: 'React.js Developer',
@@ -293,6 +292,13 @@ const experiences: TExperience[] = [
 //   },
 // ];
 
+// const footerDatas: TFooterData[] = [
+//   {},
+//   {},
+//   {},
+//   {},
+//   {},
+// ]
 const testimonials: TTestimonial[] = [
   {
     testimonial:

@@ -3,6 +3,11 @@ type TSection = {
   h2: string;
   content?: string;
 };
+type FooterSection = {
+  title: string;
+  content?: string;
+  copyright: string;
+};
 
 type TConfig = {
   html: {
@@ -32,10 +37,11 @@ type TConfig = {
   } & TSection;
   sections: {
     about: Required<TSection>;
-    experience: TSection;
+    experience: Required<TSection>;
     feedbacks: TSection;
     works: Required<TSection>;
     tech: Required<TSection>;
+    footer: FooterSection;
   };
 };
 
@@ -82,7 +88,6 @@ export const config: TConfig = {
       collaborative platforms and AI tools to designing scalable e-commerce systems 
       and microservices architectures.`,
     },
-    
     feedbacks: {
       p: "What they say",
       h2: "Testimonials",
@@ -101,5 +106,10 @@ export const config: TConfig = {
       content: `Explore the tools and technologies I use to craft innovative solutions. 
       From frontend frameworks to backend systems, my stack ensures seamless project delivery.`,
     },
+    footer: {
+      title: "Connect with Me",
+      content: `Feel free to reach out to me for any inquiries or collaborations. You can contact me via email or follow me on social media. Let's create something amazing together!`,
+      copyright: "© 2025 Your Name. All rights reserved.",
+    }    
   },  
 };

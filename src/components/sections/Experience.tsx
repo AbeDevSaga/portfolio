@@ -58,12 +58,14 @@ const Experience = () => {
     <>
       <Header useMotion={true} {...config.sections.experience} />
 
-      <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="text-secondary mt-4 max-w-3xl text-[17px] leading-[30px]"
-      >
-        {config.sections.experience.content}
-      </motion.p>
+      <div className="flex w-full">
+        <motion.p
+          variants={fadeIn('', '', 0.1, 1)}
+          className="text-secondary mt-3 max-w-3xl text-[17px] leading-[30px]"
+        >
+          {config.sections.experience.content}
+        </motion.p>
+      </div>
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>

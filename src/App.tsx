@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
+import '@fortawesome/fontawesome-free/css/all.min.css'; 
 
 import {
   About,
@@ -10,6 +11,7 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  Footer,
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
@@ -37,6 +39,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <Footer/>
       </div>
     </BrowserRouter>
   );
