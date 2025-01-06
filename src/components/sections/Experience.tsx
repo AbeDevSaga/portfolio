@@ -1,8 +1,6 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 
-import { motion, transform } from 'framer-motion';
-
 import 'react-vertical-timeline-component/style.min.css';
 
 import { experiences } from '../../constants';
@@ -10,7 +8,6 @@ import { SectionWrapper } from '../../hoc';
 import { Header } from '../atoms/Header';
 import { TExperience } from '../../types';
 import { config } from '../../constants/config';
-import { fadeIn } from '../../utils/motion';
 
 const ExperienceCard: React.FC<TExperience> = exp => {
   return (
