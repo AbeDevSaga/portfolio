@@ -1,7 +1,7 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 
-import { motion } from 'framer-motion';
+import { motion, transform } from 'framer-motion';
 
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -56,15 +56,12 @@ const ExperienceCard: React.FC<TExperience> = exp => {
 const Experience = () => {
   return (
     <>
-      <Header useMotion={true} {...config.sections.experience} />
+      <Header useMotion={false} {...config.sections.experience} />
 
-      <div className="flex w-full">
-        <motion.p
-          variants={fadeIn('', '', 0.1, 1)}
-          className="text-secondary mt-3 max-w-3xl text-[17px] leading-[30px]"
-        >
+      <div className="flex w-full bg-red">
+        <p className="text-secondary mt-3 max-w-3xl text-[17px] leading-[30px]" style={{ opacity: 1, transform: "none" }}>
           {config.sections.experience.content}
-        </motion.p>
+        </p>
       </div>
 
       <div className="mt-20 flex flex-col">
