@@ -273,19 +273,19 @@ const workprojects: TProject[] = [
     sourceCodeLink: 'https://github.com/AbeDevSaga/client-portfolio',
     url: 'https://lalisa-personal-portfolio.vercel.app/',
   },
-  {
-    name: 'GUI-Based Weather Prediction AI Model',
-    description:
-      'Developed a weather prediction system using machine learning and a user-friendly GUI built with Tkinter. The model analyzes weather parameters to provide accurate forecasts.',
-    tags: [
-      { name: 'Python', color: 'blue-text-gradient' },
-      { name: 'Tkinter', color: 'green-text-gradient' },
-      { name: 'Machine Learning', color: 'yellow-text-gradient' },
-      { name: 'Scikit-Learn', color: 'pink-text-gradient' },
-    ],
-    image: jobit,
-    sourceCodeLink: 'https://github.com/AbeDevSaga/gui-based-weather-prediction-ai-model',
-  },
+  // {
+  //   name: 'GUI-Based Weather Prediction AI Model',
+  //   description:
+  //     'Developed a weather prediction system using machine learning and a user-friendly GUI built with Tkinter. The model analyzes weather parameters to provide accurate forecasts.',
+  //   tags: [
+  //     { name: 'Python', color: 'blue-text-gradient' },
+  //     { name: 'Tkinter', color: 'green-text-gradient' },
+  //     { name: 'Machine Learning', color: 'yellow-text-gradient' },
+  //     { name: 'Scikit-Learn', color: 'pink-text-gradient' },
+  //   ],
+  //   image: jobit,
+  //   sourceCodeLink: 'https://github.com/AbeDevSaga/gui-based-weather-prediction-ai-model',
+  // },
   {
     name: 'GUI-Based Image Classifier AI Model',
     description:
