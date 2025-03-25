@@ -39,9 +39,7 @@ import {
   ecomerce,
   waa,
   threejs,
-  portfolio,
 } from '../assets';
-import { min } from 'three/examples/jsm/nodes/Nodes.js';
 
 export const navLinks: TNavLink[] = [
   {
