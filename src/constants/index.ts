@@ -15,6 +15,7 @@ import {
   javascript,
   typescript,
   html,
+  mine,
   css,
   reactjs,
   redux,
@@ -33,12 +34,14 @@ import {
   microservice as microservicesIcon,
   carrent,
   jobit,
-  tripguide,
-  project4,
-  hintas,
+  mint,
+  client,
+  ecomerce,
+  waa,
   threejs,
   portfolio,
 } from '../assets';
+import { min } from 'three/examples/jsm/nodes/Nodes.js';
 
 export const navLinks: TNavLink[] = [
   {
@@ -255,6 +258,58 @@ const testimonials: TTestimonial[] = [
 ]
 
  */
+const workprojects: TProject[] = [
+  {
+    name: 'GUI-Based Weather Prediction AI Model',
+    description:
+      'Developed a weather prediction system using machine learning and a user-friendly GUI built with Tkinter. The model analyzes weather parameters to provide accurate forecasts.',
+    tags: [
+      { name: 'Python', color: 'blue-text-gradient' },
+      { name: 'Tkinter', color: 'green-text-gradient' },
+      { name: 'Machine Learning', color: 'yellow-text-gradient' },
+      { name: 'Scikit-Learn', color: 'pink-text-gradient' },
+    ],
+    image: jobit,
+    sourceCodeLink: 'https://github.com/AbeDevSaga/gui-based-weather-prediction-ai-model',
+    url: 'Currently under development',
+  },
+  {
+    name: 'GUI-Based Image Classifier AI Model',
+    description:
+      'Developed an image classifier using machine learning to categorize images into various categories (e.g., animals, vehicles, buildings). A user-friendly GUI built with Tkinter allows users to upload and classify images easily.',
+    tags: [
+      { name: 'Python', color: 'blue-text-gradient' },
+      { name: 'Tkinter', color: 'green-text-gradient' },
+      { name: 'TensorFlow', color: 'yellow-text-gradient' },
+      { name: 'Machine Learning', color: 'pink-text-gradient' },
+    ],
+    image: jobit,
+    sourceCodeLink: 'https://github.com/AbeDevSaga/gui-based-image-classifier-ai-model',
+    url: 'Currently under development',
+  },
+  {
+    name: 'Personal portfolio',
+    description:
+      "A web-based platform that enables users to explore, access, and engage with Harari Innovation and Technology Agency's programs, projects, and resources, offering a seamless and efficient solution for fostering innovation and technological advancement.",
+    tags: [
+      {
+        name: 'Laravel',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Blade',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: mine,
+    sourceCodeLink: 'https://github.com/AbeDevSaga/portfolio',
+    url: 'https://portfolio-abedevsagas-projects.vercel.app/',
+  },
+];
 
 const projects: TProject[] = [
   {
@@ -287,7 +342,7 @@ const projects: TProject[] = [
       { name: 'Tailwind CSS', color: 'pink-text-gradient' },
       { name: 'REST API', color: 'green-text-gradient' },
     ],
-    image: jobit,
+    image: waa,
     sourceCodeLink: 'https://github.com/AbeDevSaga/waa-aluminia',
     url: 'https://abedevsaga.github.io/waa-aluminia/',
   },
@@ -300,7 +355,7 @@ const projects: TProject[] = [
       { name: 'Tailwind CSS', color: 'pink-text-gradient' },
       { name: 'SEO', color: 'green-text-gradient' },
     ],
-    image: jobit,
+    image: client,
     sourceCodeLink: 'https://github.com/AbeDevSaga/client-portfolio',
     url: 'https://lalisa-personal-portfolio.vercel.app/',
   },
@@ -314,7 +369,7 @@ const projects: TProject[] = [
       { name: 'PostgreSQL', color: 'yellow-text-gradient' },
       { name: 'Chapa', color: 'pink-text-gradient' },
     ],
-    image: carrent,
+    image: ecomerce,
     sourceCodeLink: 'https://github.com/AbeDevSaga/React-Admin-Dashboard',
     url: 'Currently under review',
   },
@@ -335,87 +390,17 @@ const projects: TProject[] = [
   {
     name: 'Feedback and Corruption Suggestion System',
     description:
-      'Developed a web-based platform for the Ministry of Innovation and Technology that enables users to submit feedback and report corruption-related suggestions. Built using the MERN stack for scalability and real-time data handling.',
+      'Developed a web-based platform for the Ministry of Innovation and Technology that enables users to submit feedback and report corruption-related suggestions.',
     tags: [
       { name: 'MongoDB', color: 'green-text-gradient' },
       { name: 'Express.js', color: 'blue-text-gradient' },
       { name: 'React.js', color: 'yellow-text-gradient' },
       { name: 'Node.js', color: 'pink-text-gradient' },
     ],
-    image: jobit,
+    image: mint,
     sourceCodeLink: 'https://github.com/AbeDevSaga/feedback-corruption-system',
     url: 'https://feedback-website.onrender.com/homepage',
   },
-  {
-    name: 'GUI-Based Weather Prediction AI Model',
-    description:
-      'Developed a weather prediction system using machine learning and a user-friendly GUI built with Tkinter. The model analyzes weather parameters to provide accurate forecasts.',
-    tags: [
-      { name: 'Python', color: 'blue-text-gradient' },
-      { name: 'Tkinter', color: 'green-text-gradient' },
-      { name: 'Machine Learning', color: 'yellow-text-gradient' },
-      { name: 'Scikit-Learn', color: 'pink-text-gradient' },
-    ],
-    image: jobit,
-    sourceCodeLink: 'https://github.com/AbeDevSaga/gui-based-weather-prediction-ai-model',
-    url: 'Currently under development',
-  },
-  {
-    name: 'GUI-Based Image Classifier AI Model',
-    description:
-      'Developed an image classifier using machine learning to categorize images into various categories (e.g., animals, vehicles, buildings). A user-friendly GUI built with Tkinter allows users to upload and classify images easily.',
-    tags: [
-      { name: 'Python', color: 'blue-text-gradient' },
-      { name: 'Tkinter', color: 'green-text-gradient' },
-      { name: 'TensorFlow', color: 'yellow-text-gradient' },
-      { name: 'Machine Learning', color: 'pink-text-gradient' },
-    ],
-    image: jobit,
-    sourceCodeLink: 'https://github.com/AbeDevSaga/gui-based-image-classifier-ai-model',
-    url: 'Currently under development',
-  },
-  {
-    name: 'Harari Innovation and Technology Agency',
-    description:
-      "A web-based platform that enables users to explore, access, and engage with Harari Innovation and Technology Agency's programs, projects, and resources, offering a seamless and efficient solution for fostering innovation and technological advancement.",
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: jobit,
-    sourceCodeLink: 'https://github.com/',
-  },
-  {
-    name: 'Personal portfolio',
-    description:
-      "A web-based platform that enables users to explore, access, and engage with Harari Innovation and Technology Agency's programs, projects, and resources, offering a seamless and efficient solution for fostering innovation and technological advancement.",
-    tags: [
-      {
-        name: 'Laravel',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Blade',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: portfolio,
-    sourceCodeLink: 'https://github.com/',
-  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, workprojects };

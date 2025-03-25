@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 import { github } from '../../assets';
 import { SectionWrapper } from '../../hoc';
-import { projects } from '../../constants';
+import { workprojects } from '../../constants';
 import { fadeIn } from '../../utils/motion';
 import { config } from '../../constants/config';
 import { Header } from '../atoms/Header';
@@ -19,7 +19,10 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   url,
 }) => {
   return (
-    <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)} className="w-full sm:w-[300px]">
+    <motion.div
+      variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
+      className="w-full sm:w-[300px]"
+    >
       <Tilt glareEnable tiltEnable tiltMaxAngleX={30} tiltMaxAngleY={30} glareColor="#aaa6c3">
         <div className="bg-tertiary h-full rounded-2xl p-5">
           <div
@@ -73,22 +76,12 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   );
 };
 
-const Works = () => {
+const WorkProject = () => {
   return (
     <>
-      <Header useMotion={true} {...config.sections.works} />
-
-      <div className="flex w-full">
-        <motion.p
-          variants={fadeIn('', '', 0.1, 1)}
-          className="text-secondary mt-3 max-w-3xl text-[17px] leading-[30px]"
-        >
-          {config.sections.works.content}
-        </motion.p>
-      </div>
       <div className="flex min-h-screen justify-center">
-        <div className="mt-20 grid w-full grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project, index) => (
+        <div className="grid w-full grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3">
+          {workprojects.map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}
         </div>
@@ -97,4 +90,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, 'work');
+export default SectionWrapper(WorkProject, 'work');

@@ -15,6 +15,7 @@ import {
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
+import WorkProject from "./components/sections/WorkProject";
 
 const App = () => {
   useEffect(() => {
@@ -34,6 +35,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
+        <WorkProject />
         {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
