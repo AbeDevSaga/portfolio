@@ -416,7 +416,7 @@ const projects: TProject[] = [
       { name: 'Node.js', color: 'pink-text-gradient' },
     ],
     image: mint,
-    sourceCodeLink: 'https://github.com/AbeDevSaga/feedback-corruption-system',
+    sourceCodeLink: 'https://feedback-website.onrender.com/homepage',
     url: 'https://feedback-website.onrender.com/homepage',
   },
 ];
