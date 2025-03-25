@@ -16,6 +16,7 @@ import {
   typescript,
   html,
   mine,
+  code_collab,
   css,
   reactjs,
   redux,
@@ -269,7 +270,6 @@ const workprojects: TProject[] = [
     ],
     image: jobit,
     sourceCodeLink: 'https://github.com/AbeDevSaga/gui-based-weather-prediction-ai-model',
-    url: 'Currently under development',
   },
   {
     name: 'GUI-Based Image Classifier AI Model',
@@ -283,7 +283,6 @@ const workprojects: TProject[] = [
     ],
     image: jobit,
     sourceCodeLink: 'https://github.com/AbeDevSaga/gui-based-image-classifier-ai-model',
-    url: 'Currently under development',
   },
   {
     name: 'Personal portfolio',
@@ -369,7 +368,6 @@ const projects: TProject[] = [
     ],
     image: ecomerce,
     sourceCodeLink: 'https://github.com/AbeDevSaga/React-Admin-Dashboard',
-    url: 'Currently under review',
   },
   {
     name: 'Code Collaboration Platform',
@@ -381,9 +379,8 @@ const projects: TProject[] = [
       { name: 'WebSockets', color: 'pink-text-gradient' },
       { name: 'Docker', color: 'orange-text-gradient' },
     ],
-    image: jobit,
-    sourceCodeLink: 'https://github.com/AbeDevSaga/code-collab',
-    url: 'Currently under development',
+    image: code_collab,
+    sourceCodeLink: 'https://github.com/AbeDevSaga/code-collab-admin-dashboard',
   },
   {
     name: 'Feedback and Corruption Suggestion System',
