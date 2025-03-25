@@ -5,8 +5,6 @@ import { github } from '../../assets';
 import { SectionWrapper } from '../../hoc';
 import { workprojects } from '../../constants';
 import { fadeIn } from '../../utils/motion';
-import { config } from '../../constants/config';
-import { Header } from '../atoms/Header';
 import { TProject } from '../../types';
 
 const ProjectCard: React.FC<{ index: number } & TProject> = ({
