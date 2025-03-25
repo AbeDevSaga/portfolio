@@ -11,6 +11,7 @@ import {
   mobile,
   backend,
   creator,
+  hintas,
   web,
   image_gui,
   javascript,
@@ -260,6 +261,19 @@ const testimonials: TTestimonial[] = [
  */
 const workprojects: TProject[] = [
   {
+    name: 'Portfolio Website for Clients',
+    description:
+      'Built personalized portfolio websites for multiple clients using Next.js and Tailwind CSS. Developed SEO-optimized pages with server-side rendering (SSR) for faster performance. Designed custom layouts for modern, responsive web designs. Integrated dynamic content through API connections for personalized client data. Optimized performance and accessibility for a seamless user experience across devices.',
+    tags: [
+      { name: 'Next.js', color: 'blue-text-gradient' },
+      { name: 'Tailwind CSS', color: 'pink-text-gradient' },
+      { name: 'SEO', color: 'green-text-gradient' },
+    ],
+    image: client,
+    sourceCodeLink: 'https://github.com/AbeDevSaga/client-portfolio',
+    url: 'https://lalisa-personal-portfolio.vercel.app/',
+  },
+  {
     name: 'GUI-Based Weather Prediction AI Model',
     description:
       'Developed a weather prediction system using machine learning and a user-friendly GUI built with Tkinter. The model analyzes weather parameters to provide accurate forecasts.',
@@ -332,6 +346,27 @@ const projects: TProject[] = [
     sourceCodeLink: 'https://github.com/',
   },
   {
+    name: 'Hinta AI',
+    description:
+      "A web-based platform developed for the Harari Innovation and Technology Agency, designed to digitize the bureau's services. It features an AI-powered chatbot integrated into the system, providing automated responses and improving user engagement. Built with Laravel, the platform ensures efficiency and accessibility for users.",
+    tags: [
+      {
+        name: 'Laravel',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Chatbot',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'AI Integration',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: hintas,
+    sourceCodeLink: 'http://hinta.great-site.net/',
+  },
+  {
     name: 'Adventist Alumni Website (Aluminia)',
     description:
       'Developed a responsive, interactive alumni website using Next.js and Tailwind CSS. Implemented SSR for enhanced SEO and performance. Designed the UI for maximum usability and cross-device responsiveness. Integrated RESTful APIs for alumni data management and event registrations. Ensured scalability and fast load times with optimized server-side rendering.',
@@ -343,19 +378,6 @@ const projects: TProject[] = [
     image: waa,
     sourceCodeLink: 'https://github.com/AbeDevSaga/waa-aluminia',
     url: 'https://abedevsaga.github.io/waa-aluminia/',
-  },
-  {
-    name: 'Portfolio Website for Clients',
-    description:
-      'Built personalized portfolio websites for multiple clients using Next.js and Tailwind CSS. Developed SEO-optimized pages with server-side rendering (SSR) for faster performance. Designed custom layouts for modern, responsive web designs. Integrated dynamic content through API connections for personalized client data. Optimized performance and accessibility for a seamless user experience across devices.',
-    tags: [
-      { name: 'Next.js', color: 'blue-text-gradient' },
-      { name: 'Tailwind CSS', color: 'pink-text-gradient' },
-      { name: 'SEO', color: 'green-text-gradient' },
-    ],
-    image: client,
-    sourceCodeLink: 'https://github.com/AbeDevSaga/client-portfolio',
-    url: 'https://lalisa-personal-portfolio.vercel.app/',
   },
   {
     name: 'E-Commerce Platform',
