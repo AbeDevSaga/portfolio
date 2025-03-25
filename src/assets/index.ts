@@ -49,9 +49,11 @@ import ecomerce from "./ecomerce.png";
 import client from "./clinet-port.png";
 import mine from "./personal-portfolio.png";
 import code_collab from "./code-collab.png";
+import image_gui from "./image-gui.png";
 
 export {
   logo,
+  image_gui,
   mint,
   code_collab,
   mine,

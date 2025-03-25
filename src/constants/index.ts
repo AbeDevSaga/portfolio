@@ -12,6 +12,7 @@ import {
   backend,
   creator,
   web,
+  image_gui,
   javascript,
   typescript,
   html,
@@ -281,7 +282,7 @@ const workprojects: TProject[] = [
       { name: 'TensorFlow', color: 'yellow-text-gradient' },
       { name: 'Machine Learning', color: 'pink-text-gradient' },
     ],
-    image: jobit,
+    image: image_gui,
     sourceCodeLink: 'https://github.com/AbeDevSaga/gui-based-image-classifier-ai-model',
   },
   {
