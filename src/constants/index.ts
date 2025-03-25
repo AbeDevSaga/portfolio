@@ -217,83 +217,6 @@ const experiences: TExperience[] = [
   },
 ];
 
-// const experiences: TExperience[] = [
-//   {
-//     title: 'React.js Developer',
-//     companyName: 'Starbucks',
-//     icon: starbucks,
-//     iconBg: '#383E56',
-//     date: 'March 2020 - April 2021',
-//     points: [
-//       'Developing and maintaining web applications using React.js and other related technologies.',
-//       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-//       'Implementing responsive design and ensuring cross-browser compatibility.',
-//       'Participating in code reviews and providing constructive feedback to other developers.',
-//     ],
-//   },
-//   {
-//     title: 'React Native Developer',
-//     companyName: 'Tesla',
-//     icon: tesla,
-//     iconBg: '#E6DEDD',
-//     date: 'Jan 2021 - Feb 2022',
-//     points: [
-//       'Developing and maintaining web applications using React.js and other related technologies.',
-//       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-//       'Implementing responsive design and ensuring cross-browser compatibility.',
-//       'Participating in code reviews and providing constructive feedback to other developers.',
-//     ],
-//   },
-//   {
-//     title: 'Web Developer',
-//     companyName: 'Shopify',
-//     icon: shopify,
-//     iconBg: '#383E56',
-//     date: 'Jan 2022 - Jan 2023',
-//     points: [
-//       'Developing and maintaining web applications using React.js and other related technologies.',
-//       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-//       'Implementing responsive design and ensuring cross-browser compatibility.',
-//       'Participating in code reviews and providing constructive feedback to other developers.',
-//     ],
-//   },
-
-//   {
-//     title: 'Full stack Developer',
-//     companyName: 'HInTA',
-//     icon: hinta,
-//     iconBg: '#383E56',
-//     date: 'Jan 2023 - Present',
-//     points: [
-//       'Developing and maintaining web applications using Laravel and other related technologies.',
-//       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-//       'Implementing responsive design and ensuring cross-browser compatibility.',
-//       'Participating in code reviews and providing constructive feedback to other developers.',
-//     ],
-//   },
-
-//   {
-//     title: 'Full stack Developer',
-//     companyName: 'Mass Media Agency',
-//     icon: meta,
-//     iconBg: '#E6DEDD',
-//     date: 'Jan 2023 - Present',
-//     points: [
-//       'Developing and maintaining web applications using React.js and other related technologies.',
-//       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-//       'Implementing responsive design and ensuring cross-browser compatibility.',
-//       'Participating in code reviews and providing constructive feedback to other developers.',
-//     ],
-//   },
-// ];
-
-// const footerDatas: TFooterData[] = [
-//   {},
-//   {},
-//   {},
-//   {},
-//   {},
-// ]
 const testimonials: TTestimonial[] = [
   {
     testimonial:
@@ -321,6 +244,18 @@ const testimonials: TTestimonial[] = [
   },
 ];
 
+/**
+ * [
+  
+  
+
+
+
+  
+]
+
+ */
+
 const projects: TProject[] = [
   {
     name: 'Harari Mass Media',
@@ -344,6 +279,102 @@ const projects: TProject[] = [
     sourceCodeLink: 'https://github.com/',
   },
   {
+    name: 'Adventist Alumni Website (Aluminia)',
+    description:
+      'Developed a responsive, interactive alumni website using Next.js and Tailwind CSS. Implemented SSR for enhanced SEO and performance. Designed the UI for maximum usability and cross-device responsiveness. Integrated RESTful APIs for alumni data management and event registrations. Ensured scalability and fast load times with optimized server-side rendering.',
+    tags: [
+      { name: 'Next.js', color: 'blue-text-gradient' },
+      { name: 'Tailwind CSS', color: 'pink-text-gradient' },
+      { name: 'REST API', color: 'green-text-gradient' },
+    ],
+    image: jobit,
+    sourceCodeLink: 'https://github.com/AbeDevSaga/waa-aluminia',
+    url: 'https://abedevsaga.github.io/waa-aluminia/',
+  },
+  {
+    name: 'Portfolio Website for Clients',
+    description:
+      'Built personalized portfolio websites for multiple clients using Next.js and Tailwind CSS. Developed SEO-optimized pages with server-side rendering (SSR) for faster performance. Designed custom layouts for modern, responsive web designs. Integrated dynamic content through API connections for personalized client data. Optimized performance and accessibility for a seamless user experience across devices.',
+    tags: [
+      { name: 'Next.js', color: 'blue-text-gradient' },
+      { name: 'Tailwind CSS', color: 'pink-text-gradient' },
+      { name: 'SEO', color: 'green-text-gradient' },
+    ],
+    image: jobit,
+    sourceCodeLink: 'https://github.com/AbeDevSaga/client-portfolio',
+    url: 'https://lalisa-personal-portfolio.vercel.app/',
+  },
+  {
+    name: 'E-Commerce Platform',
+    description:
+      'Developed a high-performance online store using Next.js for server-side rendering & SEO. Integrated payment gateways (Chapa) for secure transactions. Used MongoDB & PostgreSQL for managing products, users, and orders.',
+    tags: [
+      { name: 'Next.js', color: 'blue-text-gradient' },
+      { name: 'MongoDB', color: 'green-text-gradient' },
+      { name: 'PostgreSQL', color: 'yellow-text-gradient' },
+      { name: 'Chapa', color: 'pink-text-gradient' },
+    ],
+    image: carrent,
+    sourceCodeLink: 'https://github.com/AbeDevSaga/React-Admin-Dashboard',
+    url: 'Currently under review',
+  },
+  {
+    name: 'Code Collaboration Platform',
+    description:
+      'Built a VSCode-like online coding platform with real-time collaboration using React, Node.js, and WebSockets. Integrated Docker-based environments for isolated coding sessions. Implemented Git-based version control for seamless project tracking. Included features like file management, real-time collaboration, and terminal integration. Designed using a microservice architecture to ensure scalability and maintainability.',
+    tags: [
+      { name: 'React', color: 'blue-text-gradient' },
+      { name: 'Node.js', color: 'green-text-gradient' },
+      { name: 'WebSockets', color: 'pink-text-gradient' },
+      { name: 'Docker', color: 'orange-text-gradient' },
+    ],
+    image: jobit,
+    sourceCodeLink: 'https://github.com/AbeDevSaga/code-collab',
+    url: 'Currently under development',
+  },
+  {
+    name: 'Feedback and Corruption Suggestion System',
+    description:
+      'Developed a web-based platform for the Ministry of Innovation and Technology that enables users to submit feedback and report corruption-related suggestions. Built using the MERN stack for scalability and real-time data handling.',
+    tags: [
+      { name: 'MongoDB', color: 'green-text-gradient' },
+      { name: 'Express.js', color: 'blue-text-gradient' },
+      { name: 'React.js', color: 'yellow-text-gradient' },
+      { name: 'Node.js', color: 'pink-text-gradient' },
+    ],
+    image: jobit,
+    sourceCodeLink: 'https://github.com/AbeDevSaga/feedback-corruption-system',
+    url: 'https://feedback-website.onrender.com/homepage',
+  },
+  {
+    name: 'GUI-Based Weather Prediction AI Model',
+    description:
+      'Developed a weather prediction system using machine learning and a user-friendly GUI built with Tkinter. The model analyzes weather parameters to provide accurate forecasts.',
+    tags: [
+      { name: 'Python', color: 'blue-text-gradient' },
+      { name: 'Tkinter', color: 'green-text-gradient' },
+      { name: 'Machine Learning', color: 'yellow-text-gradient' },
+      { name: 'Scikit-Learn', color: 'pink-text-gradient' },
+    ],
+    image: jobit,
+    sourceCodeLink: 'https://github.com/AbeDevSaga/gui-based-weather-prediction-ai-model',
+    url: 'Currently under development',
+  },
+  {
+    name: 'GUI-Based Image Classifier AI Model',
+    description:
+      'Developed an image classifier using machine learning to categorize images into various categories (e.g., animals, vehicles, buildings). A user-friendly GUI built with Tkinter allows users to upload and classify images easily.',
+    tags: [
+      { name: 'Python', color: 'blue-text-gradient' },
+      { name: 'Tkinter', color: 'green-text-gradient' },
+      { name: 'TensorFlow', color: 'yellow-text-gradient' },
+      { name: 'Machine Learning', color: 'pink-text-gradient' },
+    ],
+    image: jobit,
+    sourceCodeLink: 'https://github.com/AbeDevSaga/gui-based-image-classifier-ai-model',
+    url: 'Currently under development',
+  },
+  {
     name: 'Harari Innovation and Technology Agency',
     description:
       "A web-based platform that enables users to explore, access, and engage with Harari Innovation and Technology Agency's programs, projects, and resources, offering a seamless and efficient solution for fostering innovation and technological advancement.",
@@ -362,69 +393,6 @@ const projects: TProject[] = [
       },
     ],
     image: jobit,
-    sourceCodeLink: 'https://github.com/',
-  },
-  {
-    name: "Murti Guto Student's Union",
-    description:
-      "A web-based platform that enables users to explore, access, and engage with Murti Guto Student's Union activities, events, and resources, offering a seamless and efficient solution for student connection and collaboration.",
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: tripguide,
-    sourceCodeLink: 'https://github.com/',
-  },
-  {
-    name: 'School Managment System',
-    description:
-      'A web-based platform that enables users to manage, track, and streamline school operations, including student information, attendance, grades, and communication, offering a seamless and efficient solution for educational administration.',
-    tags: [
-      {
-        name: 'Laravel',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Blade',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: project4,
-    sourceCodeLink: 'https://github.com/',
-  },
-  {
-    name: 'Harari Technology Agency',
-    description:
-      "A web-based platform that enables users to explore, access, and engage with Harari Innovation and Technology Agency's programs, projects, and resources, offering a seamless and efficient solution for fostering innovation and technological advancement.",
-    tags: [
-      {
-        name: 'Laravel',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Blade',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: hintas,
     sourceCodeLink: 'https://github.com/',
   },
   {
