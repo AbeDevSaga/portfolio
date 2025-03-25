@@ -364,7 +364,7 @@ const projects: TProject[] = [
       },
     ],
     image: hintas,
-    sourceCodeLink: 'http://hinta.great-site.net/',
+    sourceCodeLink: 'https://hinta.great-site.net/',
   },
   {
     name: 'Adventist Alumni Website (Aluminia)',
