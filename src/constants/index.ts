@@ -343,7 +343,7 @@ const projects: TProject[] = [
       },
     ],
     image: carrent,
-    sourceCodeLink: 'https://github.com/',
+    sourceCodeLink: 'https://massmediaagency.infinityfreeapp.com/',
   },
   {
     name: 'Hinta AI',
