@@ -32,3 +32,25 @@ This is my personal developer portfolio built with **Next.js** and **Tailwind CS
 - ![Responsive Design](https://img.shields.io/badge/-Responsive_Design-28a745?style=for-the-badge)
 
 
+---
+
+## 🔗 Live Demo
+
+👉 [Visit my Portfolio](https://portfolio-abedevsagas-projects.vercel.app/)
+
+---
+
+## 📬 Contact
+
+- **LinkedIn:** [Amanuel Daniel](https://linkedin.com/in/amanuel-daniel-4573b1309/)
+- **Email:** 2000amandanm@gmail.com
+- **GitHub:** [AbeDevSaga](https://github.com/AbeDevSaga)
+
+---
+
+## 📌 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
