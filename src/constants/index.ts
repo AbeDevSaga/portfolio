@@ -343,6 +343,7 @@ const projects: TProject[] = [
     ],
     image: carrent,
     sourceCodeLink: 'https://massmediaagency.infinityfreeapp.com/',
+    url: 'https://massmediaagency.infinityfreeapp.com/',
   },
   {
     name: 'Hinta AI',
@@ -364,6 +365,7 @@ const projects: TProject[] = [
     ],
     image: hintas,
     sourceCodeLink: 'https://hinta.great-site.net/',
+    url: 'https://hinta.great-site.net/',
   },
   {
     name: 'Adventist Alumni Website (Aluminia)',
