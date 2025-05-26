@@ -36,7 +36,6 @@ import {
   alumni as alumniIcon,
   microservice as microservicesIcon,
   carrent,
-  jobit,
   mint,
   client,
   ecomerce,
