@@ -403,7 +403,8 @@ const projects: TProject[] = [
       { name: 'Docker', color: 'orange-text-gradient' },
     ],
     image: code_collab,
-    sourceCodeLink: 'https://github.com/AbeDevSaga/code-collab-admin-dashboard',
+    sourceCodeLink: 'https://github.com/AbeDevSaga/codecollab-web-editor',
+    url: 'https://landing-page-ujym.vercel.app/',
   },
   {
     name: 'Feedback and Corruption Suggestion System',
